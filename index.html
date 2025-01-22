@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+
+    <header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://png.pngtree.com/png-clipart/20240709/original/pngtree-casual-man-flat-design-avatar-profile-picture-vector-png-image_15526568.png" alt="stephen bayut" width="40" height="40"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                  <a class="nav-link active px-lg-4" aria-current="page" href="#scrollspyHeading1">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link px-lg-4" href="#scrollspyHeading2">Projects</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle px-lg-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Skills</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Achievements</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Hobbies</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading6">Favorites</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading8">Resume</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item px-lg-4">
+                  <a class="nav-link" href="#scrollspyHeading9">Contacts</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit" id="btn">Search</button>
+              </form>
+            </div>
+          </div>
+      </nav>
+    </header>
+  <main class="my-5" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <div class="container" >
+            <div class="row mb-5" id="scrollspyHeading1">
+                <div class="col-md-6 mt-5">
+                    <img src="img/me.png" alt="This is not me" data-aos="fade-right" data-aos-duration="1000" class="image rounded float-start" height="500" width="500"/>
+                </div>
+                <div class="col-md-5 aboutme"> 
+                    <h1 class="mt-5" >About Me</h1>
+                    <p class="mt-4" style="text-align: justify;">Hello, I am <span style="color: rgb(254, 188, 21);">Eli C. Sorono</span>, a 19-year-old student and is passionate about technology and innovation. I am the eldest of three siblings in my family. I am currently taking a Bachelor of Science in Information Technology at the University of Mindanao, where I am in my second year of studies.
+                    </p>
+                    <p style="text-align: justify;">
+                        My academic journey has allowed me to explore more into various aspects of IT, such as programming, networking, and system development, feeding my curiosity and determination to excel in the field. As a dedicated learner, I strive to stay updated on emerging technologies and continuously improve my skills.
+                    </p>
+                    <p style="text-align: justify;">
+                        I look forward to building a successful career in IT, providing to a meaningful projects, and making a positive impact on society through technology.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="projects py-5" id="scrollspyHeading2">
+          <div class="container py-5" >
+            <h1 class="text-center pb-5" >Projects</h1>
+            <div class="row pb-3">
+              <div class="col-lg-4 mb-3">
+                <div class="card text-center py-3" data-aos="fade-right" data-aos-duration="1000">
+                  <div class="card-body" >
+                    <div class="circle">
+                      <span><i class="fas fa-industry"></i></span>
+                    </div>
+                    <h4 class="font-weght-bold pb-2">E-Commerce Web</h4>
+                    <p>An easy-to-use online shop where customers can browse, buy, and track their orders. It includes a secure payments, and a smooth checkout process.
+                    </p>
+                    <input type="button" class="btn btn-warning mb-3" value="View">
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <div class="card text-center py-3"      data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body" >
+                    <div class="circle">
+                      <span><i class="fas fa-book"></i></span>
+                    </div>
+                    <h4 class="font-weght-bold pb-2">Library System</h4>
+                    <p>An easy-to-use system that helps organize books, manage users, and track borrowing and returning in real-time. It simplifies library operations for everyone.</p>
+                    <input type="button" class="btn btn-warning mb-3" value="View">
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <div class="card text-center py-3" data-aos="fade-left" data-aos-duration="1000">
+                  <div class="card-body" >
+                    <div class="circle">
+                      <span><i class="fas fa-umbrella"></i></span>
+                    </div>
+                    <h4 class="font-weght-bold pb-2">Resort Reservation System</h4>
+                    <p>A simple system that makes it easy to handle bookings, organize schedules, and save time for both staff and guests.</p>
+                    <input type="button" class="btn btn-warning mb-3" value="View">
+                  </div>
+
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <div class="card text-center py-3"data-aos="fade-right" data-aos-duration="1000">
+                  <div class="card-body" >
+                    <div class="circle">
+                      <span><i class="fas fa-gamepad"></i></span>
+                    </div>
+                    <h4 class="font-weght-bold pb-2">2D Game</h4>
+                    <p>An exciting 2D game featuring unique graphics and engaging gameplay. Players are expecteed to battle enemies while exploring unique levels.</p>
+                    <input type="button" class="btn btn-warning mb-3" value="View">
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </section>
+
+        <section class="skills py-5" id="scrollspyHeading3">
+          <div class="container py-5">
+            <h1 class="text-center pb-5">Skills</h1>
+            <div class="row pb-3">
+              <div class="col-lg-2 mb-3">
+                <div class="card1 text-center py-3" data-aos="fade-right" data-aos-duration="1000">
+                  <div class="card-body">
+              
+                      <span><img src="img/java-removebg-preview.png" alt="Java Logo" width="100" height="100"></span>
+               
+                    <h4 class="font-weight-bold pb-2">Java</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card1 text-center py-3" data-aos="fade-right" data-aos-duration="1000">
+                  <div class="card-body">
+              
+                      <span><img src="img/pythonnn.png" alt="Python Logo" width="150" height="100"></span>
+               
+                    <h4 class="font-weight-bold pb-2">Python</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card1 text-center py-3" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body">
+ 
+                      <span><img src="img/JavaScript-Logo-removebg-preview.png" alt="JavaScript Logo" width="150" height="88" class="mt-2"></span>
+             
+                    <h4 class="font-weight-bold pt-2 pb-2">JavaScript</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card1 text-center py-3" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body">
+                      <span><img src="img/css-removebg-preview.png" alt="CSS Logo" width="100" height="100"></span>
+                    <h4 class="font-weight-bold pb-2">CSS</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card1 text-center py-3" data-aos="fade-left" data-aos-duration="1000">
+                  <div class="card-body">
+                      <span><img src="img/html-removebg-preview.png" alt="HTML Logo" width="160" height="100"></span>
+                    <h4 class="font-weight-bold pb-2">HTML</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-2 mb-3">
+                <div class="card1 text-center py-3" data-aos="fade-left" data-aos-duration="1000">
+                  <div class="card-body">
+                      <span><img src="img/bootstrap-removebg-preview.png" alt="HTML Logo" width="160" height="100"></span>
+                    <h4 class="font-weight-bold pb-2">Bootstrap</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="achievements py-5" id="scrollspyHeading4">
+          <div class="container py-5">
+            <h1 class="text-center pb-5">Achievements</h1>
+            <div class="row pb-3">
+              <div class="col-lg-4 mb-3">
+                <div class="card text-center py-3" data-aos="fade-right" data-aos-duration="1000">
+                  <div class="card-body">
+                    <div class="circle">
+                      <span><i class="fas fa-certificate"></i></span>
+                    </div>
+                    <h4 class="font-weght-bold pb-2">Certiport Java Certificate
+                    </h4>
+                    <p>Certified in Java programming, excelling in object-oriented programming, algorithms, and efficient application development.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <div class="card text-center py-3" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-body">
+                    <div class="circle">
+                      <span><i class="fas fa-medal"></i></span>
+                    </div>
+                    <h4 class="font-weght-bold pb-2">3rd Runner Up</h4>
+                    <p>Awarded as a 3rd Runner-Up in a programming competition, demonstrating problem-solving skills, creativity, and technical expertise.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-3">
+                <div class="card text-center py-3" data-aos="fade-left" data-aos-duration="1000">
+                  <div class="card-body">
+                    <div class="circle">
+                      <span><i class="fas fa-award"></i></span>
+                    </div>
+                    <h4 class="font-weght-bold pb-2">Hackathon Certification</h4>
+                    <p>Successfully completed a hackathon, showcasing teamwork, innovation, and programming skills by building a functional project within a limited timeframe.
+        </section>
+        <section class="hobbies py-5" id="scrollspyHeading5">
+          <div class="container">
+            <h1 class="pb-4">Hobbies</h1>
+              <div class="row">
+                <div class="col px-lg-5">
+                  <div class="card3 rounded" style="width: 18rem;" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="img/download (2).jpeg"height="400px"class="poster card-img-top" alt="..." style="border-radius: 5px;">
+                    <div class="card-body pt-3">
+                      <h4>Comics/Manwha</h4>
+                      <p class="card-text">Most of my free time I binge-read a manhwa/manga series.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col  px-lg-5">
+                  <div class="card3 rounded" style="width: 18rem;"data-aos="fade-up" data-aos-duration="1000">
+                    <img src="img/game.png"height="400px" class="poster card-img-top" alt="..."style="border-radius: 5px;">
+                    <div class="card-body pt-3">
+                      <h4>Video Game</h4>
+                      <p class="card-text ">Playing some sort of a game, such as FPS, is sometimes what I do during my leisure time.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col  px-lg-5">
+                  <div class="card3 rounded" style="width: 18rem;"data-aos="fade-left" data-aos-duration="1000">
+                    <img src="img/tyler.jpeg" height="400px" class="poster card-img-top" alt="..."style="border-radius: 5px;">
+                    <div class="card-body pt-3">
+                      <h4>Music</h4>
+                      <p class="card-text">Music is one of my favorite hobbies. Wherever I go, I listen to my favorite songs.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+        <section class="favorites py-5" id="scrollspyHeading6">
+          <div class="container">
+            <h1 class="mb-5">Favorites</h1>
+            <div class="row"  data-aos="fade-up" data-aos-duration="1000">
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="img/pexels-katlovessteve-551628.jpg" class="image3 d-block w-100" alt="burgz">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="img/palawan.jpg" class="image3 d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/pexels-pixabay-416160.jpg" class="image3 d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </section>
+        <section class="resume"id="scrollspyHeading8">
+          <div class="container py-5">
+            <h1>Resume</h1>
+          </div>
+        </section>  
+    </main>
+    <hr>
+    <footer id="scrollspyHeading9" class="footer">
+      <h3 >Social Media</h3>
+      <ul class="social_icon">
+        <li class="social_icon_item"> <a class="social_icon__link" href="#"><img class="imgg" src="img/facebook (1).png" alt="facebook"></a></li>
+        <li class="social_icon_item"> <a class="social_icon__link" href="#"><img class="imgg" src="img/twitter.png" alt="twitter"></a></li>
+        <li class="social_icon_item"><a class="social_icon__link" href="#"> <img class="imgg" src="img/instagram.png" alt="intagram"></a></li>
+        <li class="social_icon_item"> <a class="social_icon__link" href="#"><img class="imgg" src="img/gmail.png" alt="gmail"></a></li>
+      </ul>
+    </footer>
+    <p class="textme text-align-left px-1">Copyright ©2025 Eli Sorono. All rights reserved.</p>
+    <!-- <script>
+      alert('Hello Baby');  
+    </script> -->
+      
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
