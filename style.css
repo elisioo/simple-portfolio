@@ -11,6 +11,46 @@
     height: auto;
   }
 }
+@media (max-width: 768px) {
+  .home-content h1 {
+    font-size: 2rem;
+  }
+  .home-content h3 {
+    font-size: 1.5rem;
+  }
+  .home-img img {
+    width: 100%;
+    height: auto;
+  }
+  .card {
+    margin-bottom: 1.5rem;
+  }
+  .navbar-brand img {
+    width: 30px;
+    height: 30px;
+  }
+  .textme {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-content h1 {
+    font-size: 1.5rem;
+  }
+  .home-content h3 {
+    font-size: 1rem;
+  }
+  .home-content p {
+    font-size: 0.9rem;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .footer h3 {
+    font-size: 1.2rem;
+  }
+}
 
 body {
   font-family: "Arial";
