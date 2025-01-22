@@ -241,6 +241,11 @@ body {
   box-shadow: 10px 26px 116px -28px rgba(231,166,26,1);
   transition: 0.5s ease;
 }
+.buttoni:hover::after{
+  scale: 0;
+  box-shadow: 0 0 8px rgb(168, 119, 27);
+  transition: 0.5s ease;
+}
 
 #text-body {
   color: black;
