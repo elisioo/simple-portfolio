@@ -6,15 +6,6 @@
   .home-content h1 {
     font-size: 2rem;
   }
-  .home-img img {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-width: 768px) {
-  .home-content h1 {
-    font-size: 2rem;
-  }
   .home-content h3 {
     font-size: 1.5rem;
   }
