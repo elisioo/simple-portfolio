@@ -84,6 +84,7 @@ body {
   -webkit-box-shadow: 10px 10px 31px -13px rgba(240, 193, 62, 1);
   -moz-box-shadow: 10px 10px 31px -13px rgba(240, 193, 62, 1);
   box-shadow: 10px 10px 31px -13px rgba(240, 193, 62, 1);
+  transition: 0.5s;
 }
 
 .card3 {
@@ -104,7 +105,7 @@ body {
   -webkit-box-shadow: 5px 5px 103px -24px rgba(240, 193, 62, 0.73);
   -moz-box-shadow: 5px 5px 103px -24px rgba(240, 193, 62, 0.73);
   box-shadow: 5px 5px 103px -24px rgba(240, 193, 62, 0.73);
-  transition: 0.5s;
+
 }
 .card:hover .circle {
   background-color: rgba(240, 193, 62, 1);
