@@ -236,9 +236,14 @@ body {
 }
 .buttoni:hover {
   scale: 1.1;
+
   -webkit-box-shadow: 10px 26px 116px 18px rgba(231,166,26,1);
   -moz-box-shadow: 10px 26px 116px 18px rgba(231,166,26,1);
   box-shadow: 10px 26px 116px 18px rgba(231,166,26,1);
+  transition: 0.5s;
+
+
+
 }
 
 #text-body {
